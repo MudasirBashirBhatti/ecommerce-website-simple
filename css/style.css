@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+/*-------------------- wraper Setting--------------- */
+#wraper{
+    width: 90%;
+    margin: auto;
+    /* background-color: azure; */
+}
+
+/*-------------- header Text--------------------- */
+.header{
+    text-align: center;
+    font-size: 5vw;
+    margin: .8em;
+}
+
+
+
+/*-------------- nav style here--------------------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 5%;
+}
+
+#logo img{
+    width: 100%;
+}
+#linkList{
+    width: 400px;
+}
+#linkList ul{
+    display: flex;
+    justify-content: space-between;
+}
+#linkList ul li{
+    list-style: none;
+}
+#linkList ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#searchIcons{
+    width: 55px;
+    justify-content: space-between;
+    display: flex;
+}
+#search img{
+    width: 20px;
+}
+#hamburg{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+#hamburg div{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+}
+hr{
+    color: rgb(207, 207, 207);
+}
+.all_hr{
+    background-color: rgba(221, 219, 219, 0.356);
+    margin: 40px 0;
+    /* height: 1px; */
+
+}
+
+
+/* -----------------slider styling--------------- */
+#slider{
+    width: 100%;
+    height: 25vw;
+    background-color: red;
+    position: relative;
+    margin: 2em 0em;
+}
+.slideImage{
+    width: 100%;
+    height: 25vw;
+    position: relative;
+}
+ .slideImage img{
+    height: 100%;
+    width: 100%;
+}
+.onImgText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+.mainText{
+    font-size: 2rem;
+    margin-bottom: .3em;
+    text-transform: uppercase;
+    color:white;
+}
+.textBelowMain{
+    font-size: 1rem;
+    /* letter-spacing: px; */
+    color: white;
+    text-align: center;
+    margin-bottom: .9em;
+}
+.link{
+    display: block;
+    text-align: center;
+}
+.link a{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+
+/*--------------- about section styling ------------------*/
+.about{
+    width: 100%;
+    height: 10%;
+    color: black;
+}
+
+.insideAbout{
+    display: flex;
+    justify-content: space-between;
+}
+.about .mainText{
+    color: black;
+    text-align: center;
+    margin: .7em;
+}
+
+.infoDiv{
+    width: 23%;
+}
+.infoDiv img{
+    width: 100%;
+}
+.infoDiv .text{
+    font-size: 1.5rem;
+    margin: .2em 0em;
+}
+
+
+/*--------------------words from customer----------------*/
+.wordsFromCustomer{
+    text-align: center;
+    margin: 40px 0;
+    
+}
+
+.heading_text{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: .6em;
+    text-align: center;
+}
+
+.small_content{
+    padding-bottom: .6em;
+}
+.green_link a{
+    color: green;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+/* sdfsd  */
+.infoDivFor{
+    width: 23%;
+}
+.infoDivFor img{
+    margin: 1em 0;
+}
+.infoDivFor .text{
+    font-size: 1.5rem;
+    margin: .2em 0em;
+}
+
+/* <!-------------------- AFTER PRODUCTS  --------------------> */
+.afterProducts{
+    display: flex;
+    justify-content: space-between;
+
+}
+.simpleText{
+    color: rgb(77, 77, 77);
+}
+.seeMore a{
+    background-color: green;
+    font-weight: 400;
+    color: white;
+    padding: .8em 1em;
+    text-decoration: none;
+}
+/* <!------------------ footer  ---------------------> */
